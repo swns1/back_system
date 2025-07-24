@@ -1,6 +1,6 @@
 from bankaccount import BankAccount
 
-user1 = BankAccount("001", "User1", 5000)
+user1 = BankAccount("001", "User1")
 is_on = True
 
 while is_on:
