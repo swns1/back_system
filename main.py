@@ -1,6 +1,6 @@
-from bankaccount import BankAccount
+from savingsacoount import SavingsAcount
 
-user1 = BankAccount("001", "User1")
+user1 = SavingsAcount("001", "User1")
 is_on = True
 
 while is_on:
@@ -13,6 +13,7 @@ while is_on:
     elif choice == "2":
         deposit_money = int(input("How much money do you want to deposit: "))
         user1.deposit(deposit_money)
+        user1.apply_interest()
     elif choice == "3":
         user1.display_balance()
     else:

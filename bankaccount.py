@@ -25,9 +25,6 @@ class BankAccount:
         else:
             print("Invalid Deposit Account")
 
-    def display_balance(self):
-        print(f"Account Number: {self.acc_number} Name: {self.name} Balance: {self.balance}")
-
     def dashboard(self):
         print("1. Withdraw")
         print("2. Deposit")
